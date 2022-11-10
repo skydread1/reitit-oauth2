@@ -119,7 +119,10 @@
                                                      (make-redirect-handler profile))
                                         :middleware [[wrap-params]]}}]])
 
-(defn reitit-routes [profiles-by-id]
+(defn reitit-routes
+  "The `profiles-by-id` is a map with the different service configs.
+   You can find an example of profiles in the example project in the `example` directory."
+  [profiles-by-id]
   (into []
         (mapcat (fn [[id profile]]
                   (reitit-routes-for-profile (assoc profile :id id))))
