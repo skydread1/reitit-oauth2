@@ -80,3 +80,7 @@ In order to make the session works, you must follow the workaround highlighted i
 
 - Be aware of the order of your middlewares, for more details, see this [issue](https://github.com/weavejester/ring-oauth2/issues/43).
 
+## License
+
+Released under the MIT License, same as the [`ring-oauth2`](https://github.com/weavejester/ring-oauth2) project.
+
