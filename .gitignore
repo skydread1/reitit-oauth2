@@ -1,4 +1,21 @@
-.idea
-.cpcache
-.nrepl-port
+# production
+/build
+
+# misc
+.DS_Store
+
+## Clojure
+.cpcache/
+.lsp
+.nrepl*
+.rebel*
+*.swp
+deps/
+build/
+.idea/
 *.iml
+.calva
+.clj-kondo
+.nrepl-port
+
+
